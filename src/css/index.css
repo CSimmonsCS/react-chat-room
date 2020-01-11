@@ -1,0 +1,221 @@
+html,
+body {
+  height: 100%;
+  background-color: #c0c0c0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+hr {
+  /* border-top: 10px solid black; */
+  margin: 0;
+  height: 1px;
+  background-color: black;
+  border: black;
+}
+
+input {
+  margin: 0 10px 0 0;
+}
+
+/* navigation */
+
+.navigation {
+  background-color: #001933;
+  display: flex;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.navigation > ul {
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.navigation > ul > li {
+  padding: 10px 0;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 15%;
+  transition: 0.3s;
+  list-style: none;
+}
+
+.navigation > ul > li:hover {
+  background-color: #66b2ff;
+}
+
+.navigation > ul > li > a {
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.navigation > ul > li > a:hover {
+  color: black;
+
+  /* background-color: pink; */
+}
+
+.bodyApp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* landing page */
+
+.landing {
+  margin-top: 50px;
+}
+
+/* sign in page */
+.sign-in {
+  background-color: #e0e0e0;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+}
+
+.sign-in > form > input {
+  margin: auto;
+  display: block;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+#signin-btn {
+  margin: 5px 0 20px;
+}
+
+#google-signin {
+  height: 40px;
+  padding: 25px 0 5px;
+}
+
+#facebook-signin {
+  height: 30px;
+  padding: 5px 0;
+}
+
+#twitter-signin {
+  padding: 5px 0;
+}
+
+/* home page */
+
+.home {
+  background-color: #e0e0e0;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 45%;
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.home > div > ul {
+  text-align: left;
+}
+
+.home > div > ul > li {
+  list-style: none;
+}
+
+.edit-del {
+  display: flex;
+}
+
+/* account page */
+
+.account {
+  background-color: #e0e0e0;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 45%;
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.account > hr {
+  margin-bottom: 20px;
+}
+
+.account > form > input {
+  width: 30%;
+}
+
+.account > .social-login {
+  margin-top: 20px;
+}
+
+.account > .social-login > ul {
+  margin-top: 5px;
+  padding: 0;
+}
+
+.account > .social-login > ul > li {
+  list-style: none;
+}
+
+/* admin page */
+
+.admin {
+  background-color: #e0e0e0;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 45%;
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.users > ul {
+  list-style: square;
+  /* padding: 0; */
+  text-align: left;
+}
+
+.users > ul > li {
+  padding: 5px 0;
+  width: 65%;
+  margin: auto;
+}
+
+.users > ul > li > span,
+.users > div > span {
+  display: block;
+}
